@@ -1,0 +1,23 @@
+#!/usr/bin/env python3
+#zadanie5
+dod1=152
+print(dod1)
+dod2=18
+print(dod2)
+dod3=dod1+dod2
+print(dod3)
+#zadanie6
+im1='Ania'
+print('Mam na imie',im1)
+im2='Tola'
+print('Mam na imie',im2)
+#zadanie7
+sl1='lska'
+sl2='Po'
+sl3=sl2+sl1
+print(sl3)
+#zadanie8
+x='5\n'
+y=7
+sep="separator"
+print(x,y,sep="")
