@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+#zadanie9
+pierwsza=10
+druga=46
+if pierwsza>druga:
+    print('liczba',pierwsza,'jest wieksza od',druga)
+else:
+    print('liczba',druga,'jest wieksza od',pierwsza)
+#zadanie10
+imie=input("Jak masz na imie?")
+print('Cześć,',imie+'!')
+#zadanie11
+lata=int(input("Ile masz lat?"))
+if lata>=18:
+    print('Super! Jesteś pełnoletni!')
+else:
+    print('Nie jesteś pełnoleni:(')
