@@ -1,2 +1,3 @@
 #!/usr/bin/env pyton3
-print(hello world!)
+print('Hello World!')
+print('Jestem','tu')
