@@ -1,0 +1,14 @@
+#!/usr/bin/env python3
+#zadanie 12
+licz=int(input("Podaj dowolną liczbę:"))
+if licz<0:
+    print('Podana liczba jest mniejsza od 0')
+elif licz<1000:
+    print('Podana liczba jest większa lub równa 0 ale jest mniejsza od 1000')
+else:
+    print('Podana liczba jest większa lub równa 1000')
+#zadanie13
+licz1=int(input("Podaj dowolną liczbę całkowitą:"0))
+licz2=int(input("Podaj dowolną liczbę calkowitą nie równą 0:"))
+licz3=licz1/licz2
+print(licz3)
