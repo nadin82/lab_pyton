@@ -1,0 +1,13 @@
+#!/usr/bin/env python3
+l1=float(input("Podaj pierwszą liczbę"))
+l2=float(input('Podaj drugą liczbę'))
+dzial=input('Podaj D, jeżeli chcesz podzielić, M - pomnożyc, O - odjąć oraz S - dodać')
+if dzial=="D":
+    l=l1/l2
+if dzial=="M":
+    l=l1*l2
+if dzial=="O":
+    l=l1-l2
+if dzial=="S":
+    l=l1+l2
+print('wynik:',l)
