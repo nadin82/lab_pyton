@@ -1,0 +1,12 @@
+#!/usr/bin/env python3
+zwierzaki=["pies"]
+print(zwierzaki[0])
+zwierzaki.append("jesiotr")
+zwierzaki.append("surykatka")
+zwierzaki.append("wiewiorka")
+print(zwierzaki[0])
+print(zwierzaki[1])
+print(zwierzaki[2])
+print(zwierzaki[3])
+zwierzaki.remove("jesiotr")
+print(zwierzaki[1])
