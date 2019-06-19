@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+#zadanie16
+arc=["white","black","red","blue","green","yellow"]
+k=input("Wpisz wybrany kolor po angielsku ")
+if k in arc:
+    poz=arc.index(k)
+    print("podany kolor znaleziono na pozycji "+str(poz))
+else:
+    print("podany kolor nie znaleziono na liście")
+#zadanie17
+lista=['lancuch',2,10**10,1+3J]
+print(type(lista[0]))
+print(type(lista[1]))
+print(type(lista[2]))
+print(type(lista[3]))
