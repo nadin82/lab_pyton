@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+#zadanie 19
+i=0
+while  i<29:
+    print("*")
+    i+=1
