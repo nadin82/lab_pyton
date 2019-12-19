@@ -1,0 +1,36 @@
+#!/usr/bin/env python3
+liczby=[]
+
+licz=input('podaj dowolna liczbe')
+if licz in liczby:
+    print("liczba juz istnieje")
+else:
+    liczby.append(licz)
+
+licz=input('podaj dowolna liczbe')
+if licz in liczby:
+    print("liczba juz istnieje")
+else:
+    liczby.append(licz)
+
+licz=input('podaj dowolna liczbe')
+if licz in liczby:
+    print("liczba juz istnieje")
+else:
+    liczby.append(licz)
+
+licz=input('podaj dowolna liczbe')
+if licz in liczby:
+    print("liczba juz istnieje")
+else:
+    liczby.append(licz)
+
+licz=input('podaj dowolna liczbe')
+if licz in liczby:
+    print("liczba juz istnieje")
+else:
+    liczby.append(licz)
+
+
+print(liczby)
+ 
