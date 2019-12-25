@@ -1,0 +1,11 @@
+#!/usr/bin/env python3
+#zadanie 22
+
+list=[]
+for i in range(5):
+    licz=input('podaj dowolna liczbe')
+    if licz in list:
+    	print("liczba już istnieje")
+    else:
+    	list.append(licz)
+print(list)
