@@ -1,0 +1,15 @@
+#!/usr/bin/env python3
+#zadanie 24
+
+mojalicz=56
+print('Zgadnij liczbe. Masz 10 prob')
+i=0
+while i<10:
+    proba=int(input("wprowadz liczbe calkowita"))
+    if mojalicz==proba:
+    	print("Brawo Ty! Zgadles liczbe")
+    	break
+    elif mojalicz>proba:
+    	print("wiecej")
+    else:
+    	print("mniej")
