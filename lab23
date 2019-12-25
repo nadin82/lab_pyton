@@ -1,0 +1,17 @@
+#!/usr/bin/env python3
+#zadanie 23
+
+mojalicz=37
+print('Zgadnij liczbe. Masz 10 prob')
+for i in range(10):
+    proba=int(input("wprowadz liczbe calkowita"))
+#    typ=type(proba)
+#    if typ!=t1:
+#	print("wprowadzona liczba nie jest calkowita")
+    if proba==mojalicz:
+    	print("Brawo! Zgadles liczbe")
+    	break
+    elif mojalicz>proba:
+    	print("wiecej")
+    else:
+    	print("mniej")
