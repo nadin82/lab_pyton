@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+# zadanie 20
+#version 1
+
+#lista=["#","##","###","####","#####","######","#######","########","#########","##########"]
+#i=0
+#while i<10:
+#    print(lista[i])
+#    i=i+1
+
+#version 2
+
+for i in range(11):
+    print("#" * i)
+
+#version 3 
+
+level=int(input("Podaj liczbe poziomow"))
+level=level+1
+for i in range(level):
+    print("#" * i)
