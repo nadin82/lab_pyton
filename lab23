@@ -2,16 +2,24 @@
 #zadanie 23
 
 mojalicz=37
+def insit(s):
+    try:
+    	int(s)
+    	return True
+    except ValueError:
+    	return False
 print('Zgadnij liczbe. Masz 10 prob')
 for i in range(10):
-    proba=int(input("wprowadz liczbe calkowita"))
-#    typ=type(proba)
-#    if typ!=t1:
-#	print("wprowadzona liczba nie jest calkowita")
-    if proba==mojalicz:
-    	print("Brawo! Zgadles liczbe")
-    	break
-    elif mojalicz>proba:
-    	print("wiecej")
+    proba=input("wprowadz liczbe calkowita")
+    p=insit(proba)
+    if p==False:
+    	print('wprowadzona nie calkowita liczba')
     else:
-    	print("mniej")
+    	pp=int(proba)
+    	if pp==mojalicz:
+    	    print("Brawo! Zgadles liczbe")
+    	    break
+    	elif mojalicz>pp:
+    	    print("wiecej")
+    	else:
+    	    print("mniej")
