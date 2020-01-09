@@ -2,14 +2,26 @@
 #zadanie 24
 
 mojalicz=56
-print('Zgadnij liczbe. Masz 10 prob')
+def insit(s):
+    try:
+    	int(s)
+    	return True
+    except ValueError:
+    	return False
+print('Zgadnij liczbe. Masz 7 prob')
 i=0
-while i<10:
-    proba=int(input("wprowadz liczbe calkowita"))
-    if mojalicz==proba:
-    	print("Brawo Ty! Zgadles liczbe")
-    	break
-    elif mojalicz>proba:
-    	print("wiecej")
+while i<7:
+    i+=1
+    proba=input("wprowadz liczbe calkowita")
+    p=insit(proba)
+    if p==False:
+    	print("wprowadzona nie calkowita liczba")
     else:
-    	print("mniej")
+    	pp=int(proba)
+    	if mojalicz==pp:
+    	    print("Brawo Ty! Zgadles liczbe")
+    	    break
+    	elif mojalicz>pp:
+    	    print("wiecej")
+    	else:
+    	    print("mniej")
